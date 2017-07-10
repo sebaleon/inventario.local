@@ -1,0 +1,8 @@
+.alert-error,
+.message-danger,
+.error-message,
+.message-error {
+  background-color: #ed7669 !important;
+  border: 1px solid #d62c1a !important;
+}
+
