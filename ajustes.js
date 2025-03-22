@@ -1,3 +1,4 @@
+//empretienda
 document.addEventListener("DOMContentLoaded", function(event) {
 var price = document.getElementsByClassName("product-vip__price-value");
 var p = price[0].innerText;
