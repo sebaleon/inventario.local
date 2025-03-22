@@ -1,2 +1,2 @@
 //empretienda
-console.log('desde gib');
+alert('desde gib');
