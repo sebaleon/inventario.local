@@ -1,4 +1,3 @@
-<script>
 document.addEventListener("DOMContentLoaded", function(event) {
 var price = document.getElementsByClassName("product-vip__price-value");
 var p = price[0].innerText;
@@ -45,8 +44,8 @@ let lis = document.querySelector('.block-grill-images__grid-item--full').getElem
       //ramdom      
       document.querySelector('.block-grill-images__image').src = 
       getRandomImage(img)['src'];}});});
-</script>
-<script>
+
+
 window.addEventListener("load", (event) => {
 const button = document.querySelector(".product-vip__show-payment-offers-link");
 button.addEventListener("click", (event) => {
@@ -82,4 +81,3 @@ var precioNumero = Number(splitPrice[1]);
 const number = parseInt(splitPrice[1].replace(/\./g, '').replace(',', '.'), 10);
 prices[key].innerText = "$" + new Intl.NumberFormat("de-DE").format(number * 1.3, 2);
 } }});});
-</script>
