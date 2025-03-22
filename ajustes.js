@@ -11,6 +11,7 @@ node.appendChild(textnode);
 cont.appendChild(node);
 });
 
+	
 var off = document.getElementsByClassName("product-vip__price");
 const spa= document.createElement("span");
 spa.classList.add('product-vip__off');
